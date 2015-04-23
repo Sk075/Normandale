@@ -1,0 +1,38 @@
+Chris’s store: Scott County 
+3 Locations
+- Inventory of books, cassettes, and others medias 
+- Books can be checked and returned to any location
+- Each item can be checked for different times
+- Overdue items are fine (fee)
+- County residents are ID with an unique number
+- Hours per location 
+- Each location has different locations 
+- Two periodicals 
+- Employees are assigned to one location 
+- Files to keep an inventory, employee hours, payroll and overdue books
+- Also renewal data system 
+1. a) Interview the shop manager
+          2. Interview the mechanics
+         3. Obtain a general description of company operations
+         4. Create a description of each system process
+         5. Create a conceptual model using ER diagrams
+         6. Draw a data flow diagram and system flowcharts
+         7. Normalize the conceptual model
+         8. Create the file (table) structures
+         9. Load the database
+        10. Create the application programs
+        11. Test the system.
+b. The modules that should be Inventory, Employee, Work Order, and Customer. Employee module deal with the employee’s payroll, hours they have worked as well as information such as location where they work at. Work Order modules deal with the medias that have been checked out dealing with the date taken, the location where the work order was done at, and date expected to be taken back as well putting the fine price if there is a fine with a given media such as books or cassettes. Customer modules deal with tracking of bill orders from customer’s payments, the location where the customer brought the product, book checkouts or re-checkouts and money that they owe if there is a fine. Inventory modules deal with all media such as books, cassettes and other medias. 
+c) With several of the above modules connecting into one another, a data dictionary will be aide in continuation of name conventions consistent across the system, which can ease identifying synonyms across modules. Secondly, a data dictionary will be helpful in rapid application development, aiding in the development of user interfaces such as forms and menus. Finally, the data dictionary will do service in documenting the system for future developers to keep and grasp the reasoning’s behind why some design choices were created.
+d) Recommendations:
+I believe that when the manager and designer or designers do their modules, they should make sure that they are able to get all the information needed before they start to create modules. Like any other systems, they are constraints in the interior fashion and exterior fashion.  
+I think that there should look at integration options for the files to create sheets of the lists given and each manager of the store should obtain those sheets every two weeks. For each sheet, it includes inventory, employee’s hours, payroll, and overdue books. That way, they are able to know how to see the salary of the employees if they are paid right or overpaid or underpaid, the stocks that are full as those that are out, and which books that are not returned on time, so they call the customer to know the fine they need to pay. 
+e) The best approach to conceptual database design is to perform an intensive data analysis and requirements gathering with three steps 1) ER modeling  
+2) Normalization
+3) Data model verification. 
+By focusing on requirements first, the systems analyst ensures that all data needed is in the system. With ER modeling, we ensure that all data in the system is needed. 
+f) These reports are for all the three Scott County stores 
+R1: A Monthly Activity Sheet which service categories summaries by branch and month all together. These reports will help become the basis of predicting the personnel and stock requirements for every period and branch together.
+R2: An Employee Summary Report which contains a summary of work hours clocked by librarians. This report would be done weekly and be useful for payroll and maintaining personnel scheduling purposes.
+R3: A monthly report which contains a summary of parts in inventory, at what products are still in stock, or stocks that are running out. This report will be useful for inventory management purposes.
+R4: A Customer Activity Report which contains a breakdown in customers, and their spending habits. This is good for keeping check of the customer's activities and sure that nothing is missing from the report. Furthermore, it is useful to make sure, if the book is overdue, that the customer will be notified that he or she will have to pay a fine. 
